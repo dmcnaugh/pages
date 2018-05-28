@@ -1,6 +1,7 @@
 
 gotoPage(page1);
 
+/* This function is where it all happens */
 function gotoPage(pageNumber) {
 
   document.querySelectorAll('.pages').forEach((e) => e.hidden=true);
