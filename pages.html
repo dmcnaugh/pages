@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Pages</title>
+    <link rel="stylesheet" href="pages.css">
+</head>
+<body>
+    
+
+
+<div id="page1" class="pages">
+    <h1>Welcome to the Application</h1>
+    <button onclick="gotoPage(page2)">Next</button>
+  </div>
+  <div id="page2" class="pages">
+    <h2>Instructions</h2>
+    <button onclick="gotoPage(page1)">Back</button>
+    <button onclick="gotoPage(page3)">Next</button>
+  </div>
+  <div id="page3" class="pages">
+    <p>Let's get started...</p> 
+    <button onclick="gotoPage(page2)">Back</button>
+  </div>
+<script src="pages.js"></script>
+</body>
+</html>
