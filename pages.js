@@ -9,3 +9,7 @@ function gotoPage(pageNumber) {
 
 	pageNumber.hidden = false;
 }
+
+function newFunc() {
+    console.log('Does something...');
+}
